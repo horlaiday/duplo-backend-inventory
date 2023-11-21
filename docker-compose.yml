@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  app:
+    container_name: duplo-inventory
+    image: dockerfile
+    build: .
+    env_file:
+      - .env
+    ports:
+      - "5050:5050"
+    links:
+      - mongo
+  mongo:
+    container_name: mongo
+    image: mongo
+    volumes:
+      - ./data:/data/db
+    ports:
+      - "27017:27017"
