@@ -67,3 +67,20 @@ TODO
 --------
 
 Unit Test.
+
+
+
+HOW TO RUN THE BACKEND APPLICATION
+-------------------------------------
+
+Kindly follow below steps TO START/RUN THE APP LOCALLY
+
+Install docker on your machine
+
+Go to app directory
+
+RUN "docker-compose up". 
+
+This will start the app on port 5050
+
+BaseUrl = http://localhost:5050
