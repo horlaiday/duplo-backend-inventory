@@ -84,3 +84,10 @@ RUN "docker-compose up".
 This will start the app on port 5050
 
 BaseUrl = http://localhost:5050
+
+
+POSTMAN COLLECTION 
+-------------------------
+
+
+postman endpoint : https://documenter.getpostman.com/view/3701162/2s9YeA8tLt
